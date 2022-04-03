@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+
+}
+
+.sidebar {
+  padding: 20px 0px;
+  background-color: #393d46;
+  width: 200px;
+  color: white;
+  height: calc(100vh - 110px);
+}
+
+.sidebar-item {
+  padding: 20px;
+  /* border-bottom: 1px solid #e5e5e5; */
+}
+
+.sidebar-item:hover {
+  background-color: #42464e;
+  /* font-weight: bold; */
+  cursor: default;
+}
+
+footer {
+  position: relative;
+  background-color: #393d46;
+  line-height: 70px;
+  text-align: center;
+  min-height: 70px;
+  padding: 0px 20px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  flex: 1;
+}
+
+.feature-flag-list {
+  position: relative;
+  padding: 0px 10px;
+  width: 800px;
+  flex: 1;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+h3{
+  padding: 0px 10px;
+}
+
+hr {
+  display: block;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  border-color: rgba(0,0,0,.12);
+}
+
+/* Feature Flag Item CSS */
+.feature-flag-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 50px;
+  /* border: 1px dotted #515151; */
+  margin-bottom: 2px;;
+}
+
+/* Header CSS */
+.header-dropdown {
+  width: 200px;
+  text-align: center;
+  margin-left: 5px;
+  padding: 22px;
+  background-color: #1b1e24;
+}
+
+.header-dropdown .right {
+  position: relative;
+  float: right;
+  display: block;
+}
+
+.gap {
+  width: 50px;
+}

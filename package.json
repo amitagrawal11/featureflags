@@ -1,0 +1,27 @@
+{
+  "name": "xflags",
+  "version": "1.0.0",
+  "description": "Feature Flag Management Web Application",
+  "main": "index.js",
+  "scripts": {
+    "pre-commit": "cd server && npm run pre-commit && cd ../client && npm run pre-commit",
+    "install-dependencies": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "start:production": "cd server && npm run start:production && cd ../client && npm run start:production",
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run start" 
+  },
+  "devDependencies": {
+    "node": "14.16.1"
+  },
+  "keywords": [
+    "feature",
+    "flags",
+    "management",
+    "incremental",
+    "releases",
+    "experimental"
+  ],
+  "author": "Amit Agrawal",
+  "license": "MIT"
+}
